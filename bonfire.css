@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.top {
+    height: 78px;
+    background-color: rgb( 255, 255, 255);
+}
+
+.top img {
+    height: 30px;
+    margin-left: 685px;
+    margin-top: 22px;
+}
+
+.nav {
+    border: solid lightgrey 1px;
+    height: 56px;
+    background-color: rgb( 255, 255, 255);
+}
+
+.nav ul {
+    margin-left: 505px;
+}
+
+.nav ul li {
+    display: inline-block;
+    width: 78px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 10px;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+.nav ul .first:hover {
+    background-color: lightgrey;
+    height: 56px;
+}
+
+.nav ul .second:hover {
+    background-color: lightgrey;
+    height: 56px;
+}
+
+.picture {
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+}
+
+.picture img {
+    height: 500px;
+    width: auto;
+    padding: 30px;
+}
+
+.product .potato {
+    margin-top: 70px;
+    float: right;
+    z-index: 100;
+    margin-right: 350px;
+}
+
+.buttomF {
+    background-color:white;
+    width: 150px;
+    text-align: center;
+    height: 45px;
+    font-family: Calibri;
+    line-height: 45px;  
+    margin-top: 50px;
+    float:right;
+    margin-right: 400px;
+    color: black;
+    font-size: 12px;
+    border: solid lightgrey;
+}
+
+.buttomS {
+    background-color: black;
+    width: 150px;
+    text-align: center;
+    height: 45px;
+    font-family: Calibri;
+    line-height: 45px;  
+    margin-top: 50px;
+    float:right;
+    margin-right: 20px;
+    color: white;
+    border: solid black;
+    font-size: 12px;
+}
+
+.product .prodname {
+    font-weight: bold;
+    font-size: 25px;
+    font-family:Calibri;
+}
+
+.product .price {
+    color:darkcyan;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+}
+
+.product .more {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Calibri;   
+}
+
+.product .info {
+    font-size:13px;
+    font-family: Calibri;
+    color: grey;
+}
+
+.product .details {
+    font-size: 13px;
+    font-family: Calibri;
+    color: grey;
+}
